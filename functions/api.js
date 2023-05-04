@@ -7,7 +7,7 @@ const cors = require("cors");
 app.use(cors());
 
 // data
-const allChefsData = require("../chefs.json");
+const allChefsData = require("../src/data/chefs.json");
 
 router.get("/", (req, res) => {
   res.send("chinese chef hunter server is running..");
